@@ -1,4 +1,4 @@
-from vesselfinder_api import VesselFinderApi
+from vesselfinder_api/vesselfinder_api import VesselFinderApi
 from vesselfinder_api.exceptions import ApiErrorException
 
 v = VesselFinderApi(userkey='-- Input your userkey here --', errormode=False, save_last_info=True)
